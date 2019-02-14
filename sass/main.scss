@@ -259,7 +259,6 @@ footer{
     .tab_item_content{
       display: block;
     }
-
   }
 
   img{
@@ -275,7 +274,19 @@ footer{
       .left{
         padding-right: 10px;
         padding-left: 10px;
+        p:last-child {
+          padding-bottom: 35px;
+        }
       }
+      .beer {
+        p{
+          &:nth-child(2) {
+           max-width: 194px;
+            margin: 0 auto;
+          }
+        }
+      }
+
     }
   }
 
@@ -294,6 +305,4 @@ footer{
       }
     }
   }
-
-
 }
